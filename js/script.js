@@ -91,3 +91,64 @@ list.insertAdjacentHTML(
 // console.log(elem);
 // const nameL = body.querySelectorAll('.like');
 // console.log(nameL);
+
+
+// Задача №1.
+// Узнать ширину полосы прокрутки
+
+// // Задача №2.
+// Заставьте браузер прокрутиться на 100px сверху
+// спустя секунду после открытия страницы
+
+// // Задача №3.
+// Получите координаты любых трех элементов на странице
+// const bodyWidth = b.clientWidth;
+// console.log(bodyWidth);
+
+// const windowWidth =window.innerWidth;
+// console.log(windowWidth);
+// let widthScroll = windowWidth - bodyWidth;
+// console.log(widthScroll);
+
+// const mainElement = document.documentElement;
+// const mainElementWidth = mainElement.clientWidth;
+// const mainElementHeight = mainElement.clientHeight;
+
+// console.log(mainElementWidth);
+// console.log(mainElementHeight);
+
+// function scrollTop () {
+
+// 	// alert('Привет');
+// }
+// let c = b.scrollTop;
+// setTimeout(scrollTop, 1000);
+// console.log(c);
+// function sayHi() {
+// 	alert('Привет');
+// }
+  
+// setTimeout(sayHi, 1000);
+
+// const block = document.querySelector('.lesson__item');
+// function scroll(){
+// 	window.scrollTo(100, 0);
+// }
+
+// function a (){
+// 	window.scrollTo(0, 100);
+// }
+
+// setTimeout(a, 1000);
+
+// const a = document.querySelector('.lesson__title');
+// const b = document.querySelector('.lesson__item');
+// const c = document.querySelector('.lesson__block');
+
+// const aTop = a.getBoundingClientRect().top;
+// const bTop = b.getBoundingClientRect().top;
+// const cTop = c.getBoundingClientRect().top;
+
+// const aT = aTop + window.pageYOffset;
+
+// console.log(aT);
