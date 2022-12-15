@@ -152,3 +152,64 @@ list.insertAdjacentHTML(
 // const aT = aTop + window.pageYOffset;
 
 // console.log(aT);
+
+// function areYouPlayingBanjo(name) {
+// 	let a = name[0];
+// 	if (a == 'R' || a == 'r') {
+// 		return(`${name} plays banjo`);
+// 	} else {
+// 		return(`${name} does not play banjo`);
+// 	}
+// 	// return name;
+//   }
+
+//   areYouPlayingBanjo('Rob');
+
+//   function digitize(n) {
+// 	let a = Array.from(n.toString(), Number);
+
+// 	return a.reverse();
+//   }
+
+//   digitize(3676879809);
+
+// function oddOrEven(array) {
+// 	let a = [1, 2, 3, 4, 5, 6];
+// 	let sum = a.reduse(function(previousevalue, item, index , array){
+// 		return item + previousevalue;
+		
+// 	}, 0);
+// 	console.log(sum);
+//  }
+
+// oddOrEven();
+
+// let arr = [4, 6, 8, 2];
+
+// let result = array.reduce(function(sum, elem) {
+// 	return sum + elem;
+// }, 0);
+
+// console.log(result);
+// if (result == 0) {
+// 	return('even');
+// } else if (result != 0) {
+// 	let a = result % 2;
+// 		if (a == 0) {
+// 			return('even');
+// 		} else {
+// 			return('add');
+// 		}
+// }
+
+function filter_list(l) {
+	
+  }
+
+  function t(r){
+	return r == Number;
+  }
+
+  let a = [1, 2, 'f', 'jkjk', 3 , 6].filter(t);
+
+  console.log(a);
