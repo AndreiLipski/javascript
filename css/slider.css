@@ -1,0 +1,60 @@
+.container {
+  width: 33%;
+  position: relative;
+  overflow: hidden;
+  background: rgb(254, 174, 174);
+}
+
+.slider {
+  display: flex;
+  width: 500%;
+  transition: all 0.25s ease-in;
+  transform: translateX(0);
+}
+.slider .box {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-title {
+  position: absolute;
+}
+
+.prev,
+.next,
+.trail {
+  z-index: 10000;
+  position: absolute;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.prev:hover,
+.next:hover {
+  opacity: 1;
+}
+
+.prev {
+  top: 90%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+.next {
+  top: 90%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+
+.active {
+  opacity: 1 !important;
+}/*# sourceMappingURL=slider.css.map */
