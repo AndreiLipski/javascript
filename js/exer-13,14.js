@@ -43,3 +43,26 @@ function isBudgetEnough(data) {
 
 isBudgetEnough(shoppingMallData);
 
+
+
+const students = ['Peter', 'Andrew', 'Ann', 'Mark', 'Josh', 'Sandra', 'Cris', 'Bernard', 'Takesi', 'Sam'];
+let arrNew = [];
+let c;
+function sortStudentsByGroups(arr) {
+
+    arr.sort();
+    
+    for( let i = 3; i <= arr.length; arr.length - 3) {
+        
+        let b = arr.splice(0, 3);
+        arrNew.push(b);
+    }
+
+    c = arr.join(', ');
+    
+}
+
+sortStudentsByGroups(students);
+
+console.log(arrNew);
+console.log(`Оставшиеся студенты: ${c}.`);
