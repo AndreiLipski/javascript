@@ -55,3 +55,24 @@ function transferWaitors(data) {
 
 transferWaitors(restorantData);
 console.log(restorantData);
+
+
+let a;
+function factorial(n) {
+    if (typeof(n) !== 'number' || !Number.isInteger(n)) {
+        return "Ошибка, проверьте данные";
+    }
+    
+    if (n >= 1) {
+        a = (n * factorial(n - 1));
+
+        return a;
+    } else {
+         a = 1;
+        return a;
+        
+    }
+
+}
+factorial(4);
+console.log(a);
